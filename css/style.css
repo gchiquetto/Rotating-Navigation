@@ -78,7 +78,7 @@ html {
   .main--rotated {
     position: fixed;
     width: 100%;
-    transform: rotate(-25deg) translate(25rem, -20rem); }
+    transform: rotate(-25deg) translate(20rem, -25rem); }
 
 .nav {
   position: fixed;
