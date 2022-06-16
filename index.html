@@ -4,38 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Rotating Navigation</title>
 </head>
 <body>
-    <main class="main">
-        <div class="nav">
-            <a href="#" class="nav__link nav__link-home">
-                <svg class="nav__link-icon">
-                    <use xlink:href="img/home3.svg"></use>                
-                </svg>
-                <span class="nav__link-text">Home</span>
-            </a>
-            <a href="#" class="nav__link nav__link-about">
-                <svg class="nav__link-icon">
-                    <use xlink:href="img/sprite.svg#icon-user"></use>                
-                </svg>
-                <span class="nav__link-text">About</span>
-            </a>
-            <a href="#" class="nav__link nav__link-contact">
-                <svg class="nav__link-icon">
-                    <use xlink:href="img/sprite.svg#icon-envelop"></use>                
-                </svg>
-                <span class="nav__link-text">Contact</span>
-            </a>
-        </div>
+    <div class="button">
+        <span class="button-icon">&nbsp;</span>
+    </div>
+    <div class="nav nav--visible">
+        <a href="#" class="nav__link nav__link-home">
+            <svg class="nav__link-icon">
+                <use xlink:href="img/sprite.svg#icon-home3"></use>                
+            </svg>
+            <span class="nav__link-text">Home</span>
+        </a>
+        <a href="#" class="nav__link nav__link-about">
+            <svg class="nav__link-icon">
+                <use xlink:href="img/sprite.svg#icon-user"></use>                
+            </svg>
+            <span class="nav__link-text">About</span>
+        </a>
+        <a href="#" class="nav__link nav__link-contact">
+            <svg class="nav__link-icon">
+                <use xlink:href="img/sprite.svg#icon-envelop"></use>                
+            </svg>
+            <span class="nav__link-text">Contact</span>
+        </a>
+    </div>
+    <main class="main"> 
         <div class="article">
             <h1 class="heading-1">When I finally found my place</h1>
             <h3 class="heading-3">Gabriela Chiquetto</h3>
             <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a lorem blandit, semper magna vel, scelerisque lorem. Donec id nulla aliquet augue varius ultricies sed in lectus. Duis mollis tortor ut turpis rutrum auctor. In hac habitasse platea dictumst. Vivamus quis ornare erat, vel interdum libero. Proin dapibus augue ex, id pretium quam pellentesque eu. Aenean eget nisi nisi. Donec bibendum velit lorem, in dapibus massa mattis in. Donec consectetur justo ut lectus suscipit, sed lobortis risus tincidunt. Nulla mattis, quam sed finibus interdum, dolor ante mollis risus, id finibus orci ipsum nec massa. In varius mauris ex, vitae scelerisque quam lobortis nec. Nam mattis mi quis mauris aliquet, quis sodales risus pulvinar. Donec a luctus odio.</p>
             <h2 class="heading-2">The place</h2>
             <img src="img/pic.jpg" alt="Picture of a place made by rocks and ocean" class="article__image">
-            <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a lorem blandit, semper magna vel, scelerisque lorem. Donec id nulla aliquet augue varius ultricies sed in lectus. </p>
+            <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a lorem blandit, semper magna vel, scelerisque lorem. Donec id nulla aliquet augue varius ultricies sed in lectus. Duis mollis tortor ut turpis rutrum auctor. In hac habitasse platea dictumst. Vivamus quis ornare erat, vel interdum libero.</p>
         </div>
     </main>
     <script src="script.js"></script>
